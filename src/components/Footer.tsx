@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
               </p>
               <span className="hidden sm:inline text-slate-700">|</span>
               <p className="text-slate-400">
-                Website created by <span className="text-slate-300 font-medium">V.santhosh</span>
+                Website created by <span className="text-slate-300 font-medium">V.santhosh</span> · <span className="text-orange-400 font-semibold">sai.WEBnet</span>
               </p>
             </div>
             <div className="flex items-center gap-4">
