@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, CheckCircle2, Shield, Award, Clock, ArrowRight } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cabData';
+import templeImg from '../assets/images/tiruttani_temple_hills_1793411796764.jpg';
 
 export const AboutSection: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200">
               <img
-                src="/src/assets/images/tiruttani_temple_hills_1793411796764.jpg"
+                src={templeImg}
                 alt="Tiruttani Temple Hills and Scenic Travel"
                 className="w-full h-80 sm:h-96 object-cover object-center"
                 referrerPolicy="no-referrer"

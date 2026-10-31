@@ -44,6 +44,10 @@ export const BUSINESS_INFO = {
   mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31086.136364024474!2d79.59300329068412!3d13.177196024185203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52a38b1f727827%3A0xaec17e089d84bf25!2sTiruttani%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin',
 };
 
+import sedanImage from '../assets/images/cab_sedan_dzire_1793411795979.jpg';
+import suvImage from '../assets/images/cab_suv_innova_1793411797468.jpg';
+import highwayImage from '../assets/images/hero_sscab_highway_1793411795438.jpg';
+
 export const FLEET_DATA: Vehicle[] = [
   {
     id: 'sedan',
@@ -54,7 +58,7 @@ export const FLEET_DATA: Vehicle[] = [
     bags: 3,
     ac: true,
     idealFor: 'Couples, small families, business & airport transfers',
-    image: '/src/assets/images/cab_sedan_dzire_1793411795979.jpg',
+    image: sedanImage,
     startingRateNote: 'Best value for 1-way & round-trip highway drives',
   },
   {
@@ -66,7 +70,7 @@ export const FLEET_DATA: Vehicle[] = [
     bags: 4,
     ac: true,
     idealFor: 'Family temple pilgrimages, group travel & luggage',
-    image: '/src/assets/images/cab_suv_innova_1793411797468.jpg',
+    image: suvImage,
     startingRateNote: 'Extra legroom, smooth hill ride for Tirupati ghats',
   },
   {
@@ -78,7 +82,7 @@ export const FLEET_DATA: Vehicle[] = [
     bags: 2,
     ac: true,
     idealFor: 'Local Tiruttani town travel, quick hospital & station drops',
-    image: '/src/assets/images/cab_sedan_dzire_1793411795979.jpg',
+    image: sedanImage,
     startingRateNote: 'Economical city rides with quick pickup',
   },
   {
@@ -90,7 +94,7 @@ export const FLEET_DATA: Vehicle[] = [
     bags: 10,
     ac: true,
     idealFor: 'Large family functions, wedding parties & temple circuits',
-    image: '/src/assets/images/hero_sscab_highway_1793411795438.jpg',
+    image: highwayImage,
     startingRateNote: 'Pushback luxury seats, high roof, ample luggage boot',
   },
 ];

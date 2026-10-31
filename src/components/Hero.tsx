@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Phone, MessageSquare, Calendar, MapPin, Navigation, Car, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cabData';
+import heroBgImage from '../assets/images/hero_sscab_highway_1793411795438.jpg';
 
 export const Hero: React.FC = () => {
   const todayStr = new Date().toISOString().split('T')[0];
@@ -57,7 +58,7 @@ export const Hero: React.FC = () => {
       {/* Background Image with Dark Navy Scrim Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_sscab_highway_1793411795438.jpg"
+          src={heroBgImage}
           alt="SS Cab Highway Travel"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
