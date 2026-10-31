@@ -67,7 +67,7 @@ export const Navbar: React.FC = () => {
                 Our Fleet
               </a>
               <a href="#routes" className="hover:text-orange-600 transition-colors whitespace-nowrap shrink-0">
-                Popular Routes
+                Routes &amp; Search
               </a>
               <a href="#about" className="hover:text-orange-600 transition-colors whitespace-nowrap shrink-0">
                 About
@@ -127,7 +127,7 @@ export const Navbar: React.FC = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="py-1 hover:text-orange-600 transition-colors"
               >
-                Popular Routes from Tiruttani
+                Search Routes &amp; Destinations
               </a>
               <a
                 href="#about"

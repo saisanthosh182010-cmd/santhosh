@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MessageSquare, Calendar, MapPin, Navigation, Car, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { Phone, MessageSquare, Calendar, MapPin, Navigation, Car, ShieldCheck, CheckCircle2, Search } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/cabData';
 import heroBgImage from '../assets/images/hero_sscab_highway_1793411795438.jpg';
 
@@ -132,14 +132,21 @@ export const Hero: React.FC = () => {
 
             {/* Quick route chips for quick access */}
             <div className="pt-2 text-xs text-slate-400 flex flex-wrap items-center gap-2">
-              <span className="font-semibold text-slate-300">Popular Routes:</span>
-              <a href="#routes" className="hover:text-orange-400 underline decoration-slate-600 underline-offset-4">Tirupati</a>
+              <a
+                href="#routes"
+                className="inline-flex items-center gap-1.5 bg-white/10 hover:bg-orange-600 hover:text-white px-3 py-1 rounded-lg text-slate-200 transition-colors font-medium border border-white/15"
+              >
+                <Search className="w-3.5 h-3.5 text-orange-400" />
+                <span>Search Routes &amp; Fares</span>
+              </a>
+              <span className="text-slate-500">·</span>
+              <a href="#routes" className="hover:text-orange-400 text-slate-300">Tirupati</a>
               <span>·</span>
-              <a href="#routes" className="hover:text-orange-400 underline decoration-slate-600 underline-offset-4">Chennai Airport (MAA)</a>
+              <a href="#routes" className="hover:text-orange-400 text-slate-300">Chennai Airport (MAA)</a>
               <span>·</span>
-              <a href="#routes" className="hover:text-orange-400 underline decoration-slate-600 underline-offset-4">Vellore CMC</a>
+              <a href="#routes" className="hover:text-orange-400 text-slate-300">Vellore CMC</a>
               <span>·</span>
-              <a href="#routes" className="hover:text-orange-400 underline decoration-slate-600 underline-offset-4">Bengaluru</a>
+              <a href="#routes" className="hover:text-orange-400 text-slate-300">Bengaluru</a>
             </div>
 
           </div>
