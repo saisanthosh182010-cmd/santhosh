@@ -1,0 +1,6 @@
+{
+  "name": "SS Cab - Tiruttani Taxi & Outstation Travel Service",
+  "description": "Professional 24/7 cab booking, local taxi, outstation trips, airport transfers, and temple pilgrimage tours in Tiruttani, Tamil Nadu. Call 7823085693.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
